@@ -5,6 +5,7 @@
 
 == Download
 
+ * Requires rest-client and nokogiri, both available from gems.
  * Available from git://github.com/deathsyn/vtwhite4r.git
  * Prebuilt gem available from github's gem repository (deathsyn-vtwhite4r) 
 
