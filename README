@@ -5,11 +5,19 @@
 
 == Download
 
-  
+ * Available from git://github.com/deathsyn/vtwhite4r.git
+ * Prebuilt gem available from github's gem repository (deathsyn-vtwhite4r) 
 
 ==Usage
 -------
 
-We're getting there. 
+begin
+require "vtwhite4r"
+rescue LoadError
+  require "rubygems"
+  require "vtwhite4r"
+end
+
+api = Vtwhite4r::API.new("passwd", "username")
 
 Copyright(c) 2009 by The Rubyists

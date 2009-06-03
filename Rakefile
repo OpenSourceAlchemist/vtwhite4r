@@ -57,8 +57,8 @@ GEMSPEC = Gem::Specification.new{|s|
   s.files        = `git ls-files`.split("\n").sort.reject { |f| IGNORE_FILES.detect { |exp| f.match(exp)  } }
   s.has_rdoc     = true
   s.require_path = 'lib'
-  s.bindir = "bin"
-  s.executables = ["Vtwhite4r"]
+  #s.bindir = "bin"
+  #s.executables = ["Vtwhite4r"]
   
 
   s.post_install_message = <<MESSAGE.strip
